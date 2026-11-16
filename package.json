@@ -1,0 +1,29 @@
+{
+  "name": "shipnow-api",
+  "version": "1.0.0",
+  "description": "API de ShipNow - Arquitectura por capas, mocking, errores, logging, Swagger, tests y carga de archivos",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "cross-env NODE_ENV=test mocha"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "multer": "^2.0.0",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.8.2",
+    "supertest": "^7.0.0"
+  }
+}

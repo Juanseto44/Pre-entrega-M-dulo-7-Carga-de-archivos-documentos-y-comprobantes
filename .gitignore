@@ -1,0 +1,13 @@
+.env
+node_modules
+
+# Archivos de log generados por la aplicación (la carpeta se conserva con .gitkeep)
+logs/*
+!logs/.gitkeep
+
+# Variables de entorno de los tests (el ejemplo es .env.test.example)
+.env.test
+
+# Archivos subidos por los usuarios (y los de los tests): NO van al repositorio
+uploads/
+uploads-test/
